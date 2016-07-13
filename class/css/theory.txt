@@ -1,0 +1,53 @@
+Selector
+1.  tag
+2.  id
+3.  class
+
+<div id="header"  class="header"></div>
+
+CSS 포함방법
+
+1.  inline
+ex) <div style="color:red"></div>
+
+2.  embed ( internal )
+
+ex)
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- CSS -->
+    <style>
+      p {color:red}
+      </style>
+      <!--// CSS -->
+</head>
+
+3.  external
+
+ex)
+
+파일 :  style.css
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- CSS -->
+    <link rel="stylesheet"  href="style.css"  />
+    <!--// CSS  -->
+</head>
+
+
+문법
+
+selector  {
+  property : property 값;
+  property : property 값;
+  property : property 값;
+}
+*css의 속성을 property , html에서는 attribute
