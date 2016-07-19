@@ -1,0 +1,56 @@
+.wrap{
+  width:800px;
+  margin:0 auto;
+}
+
+.header{
+  height:150px;
+  background: saddlebrown;
+}
+
+
+.gnb{
+  width:800px;
+  height:400px;
+  background: purple;
+}
+.container:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+
+.a{
+  width:600px;
+  height:200px;
+  background: green;
+  float:left;
+
+}
+
+.b{
+  width:200px;
+  height:200px;
+  background: red;
+  float:left;
+}
+
+.c{
+  width:600px;
+  height:150px;
+  background: skyblue;
+  float:left;
+}
+
+.d{
+  width:200px;
+  height:150px;
+  background: yellowgreen;
+  float:left;
+
+}
+
+.footer{
+  height:100px;
+  background: blue;
+}

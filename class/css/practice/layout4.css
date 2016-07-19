@@ -1,0 +1,56 @@
+.wrap{
+  width:1000px;
+  margin:0 auto;
+}
+
+.header{
+  height:100px;
+  background: gold;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.left-col{
+  width:500px;
+  float:left;
+}
+
+.a{
+  width:250px;
+  height:800px;
+  background:chocolate;
+  float:left;
+}
+
+.b{
+  width:250px;
+  height:800px;
+  background:coral;
+  float:left;
+}
+
+.right-col{
+  width:500px;
+  float:left;
+}
+
+.c{
+  width:500px;
+  height:400px;
+  background: forestgreen;
+
+}
+.d {
+  width:500px;
+  height:400px;
+  background: greenyellow ;
+
+}
+.footer{
+  height:100px;
+  background: magenta;
+}
