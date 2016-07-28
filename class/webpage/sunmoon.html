@@ -3,43 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>페이지 제작 연습</title>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/sunmoon.css"/>
 </head>
 <body>
 <div>
-  <header>
+  <header class="header">
 
-    <h1>
-      <img src="/images/logo.png"  alt="선문대학교 로고"/>
+    <h1 class="logo">
+      <img src="images/logo.png"  alt="선문대학교 로고"/>
     </h1>
 
-    <div>
+    <div class="small-wrap">
+    <div class="language-wrap">
 
-      <ul>
-        <li><a href="">ENGLSIH</a></li>
-        <li><a href="">CHINESE</a></li>
-        <li><a href="">JAPANESE</a></li>
+      <ul class="language-member">
+        <li class="language-member-item"><a href="#" class="language-member-link">ENGLSIH</a></li>
+        <li class="language-member-item"><a href="#" class="language-member-link">CHINESE</a></li>
+        <li class="language-member-item"><a href="#" class="language-member-link">JAPANESE</a></li>
       </ul>
 
-      <div>
+    </div>
 
-        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">LOGIN</a></li>
-          <li><a href="">SITEMAP</a></li>
+      <div class="util-wrap">
+
+        <ul class="util-member">
+          <li class="util-member-item"><a href="#" class="util-member-link">HOME</a></li>
+          <li class="util-member-item"><a href="#" class="util-member-link">LOGIN</a></li>
+          <li class="util-member-item"><a href="#" class="util-member-link">SITEMAP</a></li>
         </ul>
 
         <a href="">선문 포털</a>
 
-        <fieldset>
-          <legend>검색</legend>
-          <input tyep="text"/>
-          <button type="button">검색</button>
-        </fieldset>
+        <span>
+          <label for="search" class="blind">통합검색</label>
+          <input id="search" type="text" placeholder="통합검색"/>
+        </span>
+
+        <!--<fieldset>-->
+          <!--<legend>검색</legend>-->
+          <!--<input type="text"/>-->
+          <!--<button type="button">검색</button>-->
+        <!--</fieldset>-->
 
       </div>
 
+
     </div>
   </header>
+
 
   <nav>
 
@@ -149,7 +161,9 @@
 
   <div>
 
-   <h2> <img src="/images/sub_visual01.jpg" alt="선문을 넘은 선문의 이야기가 재창조됩니다."></h2>
+    <div class="banner">
+     <a href="#">선문을 넘은 선문의 이야기가 재창조됩니다. Re-create Yourself @ SUN MOON</a>
+    </div>
 
   </div>
 
@@ -211,10 +225,10 @@
 
     <div>
       <ul>
-        <li><a href="">개인정보처리</방침</li>
-        <li><a href="">이메일무단수</집거부</li>
-        <li><a href="">대학정보공시</a></li>
-        <li><a href="">찾아오시는길</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+        <li><a href="#">대학정보공시</a></li>
+        <li><a href="#">찾아오시는길</a></li>
       </ul>
 
       <ul>
@@ -230,10 +244,10 @@
         <div>Fax. 041-541-7424</div>
       </address>
       <ul>
-        <li><a href=""><img src="/images/foot_sns01.png"/></a></li>
-        <li><a href=""><img src="/images/foot_sns02.png"/></a></li>
-        <li><a href=""><img src="/images/foot_sns03.png"/></a></li>
-        <li><a href=""><img src="/images/foot_sns04.png"/></a></li>
+        <li><a href=""><img src="images/foot_sns01.png"/></a></li>
+        <li><a href=""><img src="images/foot_sns02.png"/></a></li>
+        <li><a href=""><img src="images/foot_sns03.png"/></a></li>
+        <li><a href=""><img src="images/foot_sns04.png"/></a></li>
       </ul>
     </div>
     <div>

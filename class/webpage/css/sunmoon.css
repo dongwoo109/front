@@ -1,0 +1,57 @@
+.header{
+  width:1345px;
+  margin:0 auto;
+  position: relative;
+}
+
+.small-wrap{
+  position: absolute;
+  width:100%;
+  height:33px;
+  background:#01aeb2;
+}
+
+.logo{
+
+}
+
+.language-wrap{
+  float:left;
+}
+
+.language-member{
+  width:232px;
+  float: left;
+
+}
+
+.language-member-item{
+  width:62px;
+  float:left;
+  text-align: center;
+}
+
+.util-wrap{
+  float:right;
+}
+
+.util-member{
+  float:right;
+}
+
+.util-member{
+  float:right;
+}
+
+.blind{
+  display: none;
+}
+
+.banner{
+  display:block;
+  width:100%;
+  height:158px;
+  text-indent: -99999em;
+  background: url(../images/sub_visual01.jpg) no-repeat;
+
+}
