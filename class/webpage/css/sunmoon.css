@@ -1,10 +1,114 @@
+.wrap{
+  overflow:auto;
+}
+
 .header{
-  position: relative;
+  width:100%;
+  position: absolute;
+  padding-top:33px;
+  border-bottom:1px solid #dcdcdc;
+  margin-bottom: 1px;
+  z-index: 900;
+  background: #fff;
+}
+
+
+.header>.inner{
+  height:82px;
+  /*height:550px;*/
+  overflow: hidden;
+
+}
+
+.logo{
+  position: absolute;
+  top:23px;
+  left:0;
 }
 
 .inner{
   width:1094px;
   margin: 0 auto;
+  position: relative;
+}
+
+.gnb{
+  float:right;
+}
+
+
+
+.gnb-depth1-item{
+  float:left;
+  margin-right:60px;
+}
+
+.gnb-depth1-item:last-child{
+  margin-right:30px;
+}
+
+.gnb-depth1-link{
+  display: block;
+  font-size: 17px;
+  padding:32px 0 29px;
+  font-weight: bold;
+}
+
+.gnb-depth1-link:hover,
+.gnb-depth1-link.current{
+  color:#00878d
+}
+
+
+.gnb-depth3{
+}
+
+.gnb-depth3-item{
+  margin:16px 0;
+}
+
+.gnb-depth3-link{
+  color:#6b6b6b;
+}
+
+.gnb-depth1-item:nth-child(1) .gnb-depth2,
+.gnb-depth1-item:nth-child(2) .gnb-depth2,
+.gnb-depth1-item:nth-child(3) .gnb-depth2,
+.gnb-depth1-item:nth-child(4) .gnb-depth2,
+.gnb-depth1-item:nth-child(5) .gnb-depth2,
+.gnb-depth1-item:nth-child(6) .gnb-depth2
+{
+  display:none;
+}
+
+/*임시*/
+
+.gnb-depth2{
+  position: absolute;
+  top:135px;
+  left:20px;
+}
+
+.gnb-depth2:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.gnb-depth2-item{
+  float:left;
+  margin-right:100px;
+}
+
+.gnb-depth2-item:last-child{
+  margin-right:0;
+}
+
+
+.gnb-depth2-link{
+  font-size:15px;
+  font-weight: bold;
+  padding:12px 0 8px;
 }
 
 .util{
@@ -41,7 +145,7 @@
   padding:0 10px;
 }
 /* a 태그는 inline 이라서
-display:blcok; 을 해주자!*/
+display:block; 을 해주자!*/
 
 
 
@@ -145,17 +249,13 @@ display:blcok; 을 해주자!*/
 }
 
 
-.logo{
-  float:left;
-  position: relative;
-  height:84px;
-}
 
 .top-visual{
   width:100%;
   height:158px;
   background: url(../images/sub_visual01.jpg) no-repeat 50% 0;
   position: relative;
+  margin-top: 117px;
   /*background 가운데로 가게하려면 50% 0 해주면 됨*/
 }
 
@@ -387,7 +487,7 @@ display:blcok; 을 해주자!*/
   margin-bottom: 10px;
 }
 
-.footer-bottom address>div{
+.footer-bottom address div{
   color:#666;
   margin-right:5px;
   float:left;
@@ -395,7 +495,7 @@ display:blcok; 을 해주자!*/
 }
 .footer-bottom .sns{
   position: absolute;
-  top:-10;
+  top:-10px;
   right:0;
 }
 
