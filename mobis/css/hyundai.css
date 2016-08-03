@@ -1,6 +1,6 @@
 .header{
   width:100%;
-  height:90px;
+ - height:90px;
 }
 
 
@@ -46,6 +46,47 @@
 .gnb-depth2-link{
   font-size: 14px;
 }
+
+
+.small-wrap{
+  width:100%;
+  height:346px;
+  margin: 60px auto;
+  overflow: hidden;
+  background: #f7f7f7;  float:left;
+}
+
+
+.h2top{
+  width: 88px;
+  height:15px;
+  display: block;
+  text-indent: -99999em;
+  background: url(../images/mCsr_tit.png) no-repeat;
+
+
+}
+
+
+
+.mc-menu{
+  float:left;
+}
+
+.mc-menu1,
+.mc-menu2,
+.mc-menu3,
+.mc-menu4{
+  float:left;
+}
+
+.mc-menu1 img:hover{
+  background: url(../images/mCsrIcon1_on.png)
+
+
+}
+
+
 
 
 /*.footer{*/
