@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5beb36f-6c8b-4912-bf98-fa4ccc04dc73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mBanEasy_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mBanL_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mBanR_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mBlock0_tit1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mCsrIntroBanner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mPhotoEasy_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mPhotoGreen_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mPhotoHappy_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mPhotoSave_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/mVideoSt0_img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/reviewFream2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobis/images/visual0.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobis/css/hyundai.css" afterPath="$PROJECT_DIR$/mobis/css/hyundai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobis/html/hyundai.html" afterPath="$PROJECT_DIR$/mobis/html/hyundai.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -41,7 +27,7 @@
       <file leaf-file-name="baskinrabins.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/webpage/baskinrabins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="8" selection-start-line="16" selection-start-column="24" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -54,7 +40,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75250834">
+            <state vertical-scroll-proportion="0.6020067">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
@@ -248,6 +234,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,8 +256,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +336,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13382508" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -754,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75250834">
+        <state vertical-scroll-proportion="0.6020067">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
