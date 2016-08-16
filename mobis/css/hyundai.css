@@ -325,6 +325,79 @@
 */
 
 
+.header{
+  height:90px;
+  position: relative;
+  z-index: 999;
+}
+
+.logo{
+  float:left;
+}
+
+.gnb{
+  float:right;
+}
+
+.gnb-depth1{
+  float:left;
+  margin-top: 30px;
+}
+
+.gnb-depth1-item{
+  float: left;
+  margin-right:50px;
+  text-align: center;
+}
+
+.gnb-depth1-link{
+  display: inline-block;
+  height: 16px;
+  text-indent:99999em;
+  background:url(../images/sprite_image_01.png) no-repeat;
+}
+
+.gnb-depth1-item:nth-child(1) .gnb-depth1-link{
+  width:94px;
+  background-position:-200px 0;
+}
+
+.gnb-depth1-item:nth-child(2) .gnb-depth1-link{
+  width:94px;
+  background-position:-200px -26px;
+}+6
+
+.gnb-depth1-item:nth-child(3) .gnb-depth1-link{
+  width:94px;
+  background-position:-200px -52px;
+}
+
+.gnb-depth1-item:nth-child(4) .gnb-depth1-link{
+  width:94px;
+  background-position:-200px -78px;
+}
+
+.gnb-depth2{
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .left-news{
   float:left;
 }
